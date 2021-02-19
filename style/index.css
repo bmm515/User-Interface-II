@@ -74,24 +74,78 @@ body{
     line-height: 1.5;
 }
 
+nav .siteTitle{
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+nav .name-and-buttons{
+    background-color: rgb(162, 203, 223);
+}
+
+nav h1{
+    font-size: 5rem;
+}
+
+nav button{
+    height: 30px;
+    width: 100px;
+    color:black;
+    font-family: 'Acme', sans-serif;
+    background-color: rgb(37, 14, 131);
+    color: white;
+    margin: 3px;
+    border: 3px solid white;
+}
+
+button:active{
+    background-color: rgb(148, 131, 33);
+}
+
+.buttons{
+    display: flex;
+    border: 3px solid red;
+    margin: 8px;
+
+}
+
 .photo-and-text{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
+
 
 .all-Header-Text{
     width: 40%;
     text-align: left;
-    padding:2%;
+    padding:5%;
 }
 
 .photo-and-text img{
-    /* padding: 3%; */
+    width: 400px;
+    padding: 3%;
     margin: 5px;
     border: 2px solid red;
+    
 }
+
+.all-Header-Text h3{
+    font-size: 4rem;
+}
+
+.all-Header-Text #project{
+    background-color: rgb(116, 218, 116);
+    border: 2px solid rgb(2, 36, 2);
+    width: 23%;
+    text-align: center;
+}
+
+.all-Header-Text #paragraph1{
+    margin-top: 15px;
+}
+
 
 .all-images-and-titles{
     display: flex;
