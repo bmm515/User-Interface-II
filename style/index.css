@@ -188,6 +188,14 @@ button:active{
     background-color: rgb(194, 223, 238);
 }
 
+.contact-Insta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:30px;
+    
+}
+
 .all-footer button{
     margin: 7px;
     height: 30px;
@@ -196,4 +204,11 @@ button:active{
     background-color: rgb(37, 14, 131);
     color: white;
     border: 3px solid white;
+}
+
+
+.contact-Insta img{
+    display: block;
+    width:35px;
+    height: 30px;
 }
