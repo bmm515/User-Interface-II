@@ -90,7 +90,6 @@ nav h1{
 nav button{
     height: 30px;
     width: 100px;
-    color:black;
     font-family: 'Acme', sans-serif;
     background-color: rgb(37, 14, 131);
     color: white;
@@ -125,9 +124,11 @@ button:active{
 
 .photo-and-text img{
     width: 400px;
+    height: 400px;
     padding: 3%;
     margin: 5px;
     border: 2px solid red;
+    object-fit: cover;
     
 }
 
@@ -136,14 +137,18 @@ button:active{
 }
 
 .all-Header-Text #project{
-    background-color: rgb(116, 218, 116);
-    border: 2px solid rgb(2, 36, 2);
+    background-color: rgb(37, 14, 131);
+    color: white;
+    border: 2px solid white;
     width: 23%;
     text-align: center;
 }
 
 .all-Header-Text #paragraph1{
     margin-top: 15px;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
@@ -153,9 +158,42 @@ button:active{
     justify-content: space-evenly;
     /* margin: 20px; */
     border: 2px solid blue;
-    
+    padding: 2.5%;
+    align-items: center;
+    text-align: center;
 }
 
-img{
+
+.all-images-and-titles img{
     width: 300px;
+    height:300px;
+    object-fit: cover; /*to make img fill the space*/
+
+    display: block;
+    margin: 6px;
+    margin-bottom: 0px;
+}
+
+.all-images-and-titles p{
+    margin-bottom: 20px;
+}
+
+.all-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    padding: 3%;
+    background-color: rgb(194, 223, 238);
+}
+
+.all-footer button{
+    margin: 7px;
+    height: 30px;
+    width: 100px;
+    font-family: 'Acme', sans-serif;
+    background-color: rgb(37, 14, 131);
+    color: white;
+    border: 3px solid white;
 }
