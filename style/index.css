@@ -60,7 +60,7 @@ table {
 
 /*Start styling here-------->*/
 *{
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 html{
@@ -212,4 +212,23 @@ button:active{
     display: block;
     width:35px;
     height: 30px;
+}
+
+
+@media (max-width: 800px){
+    .name-and-buttons{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; ....doesn't do anything because the main axis of column is vertical... so want to align center with the cross axis (horizontal)*/
+        align-items: center;
+    }
+
+    .buttons{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px){
+    
 }
